@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'FiraSans-Medium';
+    src: url("fonts/FiraSans-Medium.ttf");   
+}
+@font-face {
+    font-family: 'Prompt-Bold';
+    src: url("fonts/Prompt-Bold.ttf");   
+}
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url("fonts/Prompt-Regular.ttf");   
+}
+h1,h2, h3,h4,h5{
+    font-family: 'Prompt-Bold';
+    text-transform: uppercase;
+}
+h2{
+    font-size: 55px;
+}
+p{
+    font-size: 40px;
+    color: #000; 
+    font-family: 'FiraSans-Medium';
+}
 a{
     text-decoration: none;
 }
@@ -5,12 +29,12 @@ a{
     position: relative;
     right: 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: 98vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background: #111;
+    background: #000000;
     color: #fff;
     z-index: 2;
 }
@@ -60,6 +84,7 @@ a{
     color: white;
     border-radius: 0;
     width: 150px;
+    font-family: 'Prompt-Bold';
 }
 #btn-contacto a{
     text-decoration: none;
@@ -110,7 +135,7 @@ footer a:hover{
     color: #fff;
 }
 input, label{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'FiraSans-Medium';
     color: #000000;
 }
 .borde-bottom{
@@ -140,6 +165,7 @@ input, label{
     border: 2px solid #000000;
     border-radius: 0;
     width: 200px;
+    font-family: 'Prompt-Bold';
 }
 .btn-conoce{
     background: none;
@@ -148,6 +174,7 @@ input, label{
     border-radius: 0;
     margin-top: 100px;
     font-size: 1.8rem;
+    font-family: 'Prompt-Bold';
 }
 .btn-conoce a{
     color: #fff;
@@ -156,7 +183,36 @@ input, label{
     background: none;
     color: #fff;
 }
-@media screen and (max-width:300px) {
+.como{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px 12px rgba(152, 153, 153, 0.3);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.como img{
+    max-width: 70px;
+}
+.text-pa{
+    font-family: 'FiraSans-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 1.5rem;
+}
+.icono-como{
+    float: left;
+}
+.texto-morado{
+    background: linear-gradient(to right,#910ec6,#c12cb9);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.texto-azul{
+    background: linear-gradient(to right,#04b4c3,#03d9be);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@media screen and (max-width:400px) {
     .showcase header{
         padding: 0;
     }
