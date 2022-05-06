@@ -32,6 +32,9 @@
 .call-action a{
     color: #000;
 }
+#mensaje-agradecimiento{
+    display: none;
+}
 h1,h2, h3,h4,h5{
     font-family: 'Prompt-Bold';
     text-transform: uppercase;
