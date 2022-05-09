@@ -93,7 +93,6 @@ $bodyHtml = '
             <td style="padding:0px 30px 42px 20px; font-family: sans-serif;">
               <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; font-family:  sans-serif;">
               <tr>
-                <center>
                   <td style="width:260px;padding:0;vertical-align:top;color:#000000; font-family:  sans-serif;">
                     <ul style="color: #aba9a8; list-style: none; text-align: center;">
                         <li style="margin-bottom: 10px;">Nombre: '.$nombre.'</li>
@@ -110,7 +109,6 @@ $bodyHtml = '
                     <p style="color: #aba9a8; margin:20px 0 0px 0;font-size:12px;line-height:24px; text-align: center; font-family: sans-serif;">Av. Rúben Darío #586 Col. Prados Providencia <br>
                     C.P 44670, Guadalajara, Jalisco, México.</p>
                   </td>
-              </center>
               </tr>
             </table>
               
