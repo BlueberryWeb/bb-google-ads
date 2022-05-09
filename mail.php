@@ -35,9 +35,10 @@ $senderName = 'Pagina Blueberry ADS';
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
-$recipient = 'pruebas.blueberry2@gmail.com';
+$recipient = 'pruebascorreosbb@gmail.com';
 $recipient = 'noreply.blueberry@gmail.com';
-$recipient = 'blueberryweb7@gmail.com';
+$recipient = 'ventas01bb@gmail.com';
+$recipient = 'fidelberry1@gmail.com';
 
 // Replace smtp_username with your Amazon SES SMTP user name.
 $usernameSmtp = 'noreply.blueberry@gmail.com';
