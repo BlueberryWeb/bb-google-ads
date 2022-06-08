@@ -1,7 +1,7 @@
 
 
 <?php
-$nombre = trim($_POST['name']);
+$nombre = trim($_POST['nombre']);
 $email = trim($_POST['email']);
 $telefono = trim($_POST['telefono']);
 $mensaje = trim($_POST['mensaje']);
@@ -61,7 +61,7 @@ $bodyHtml = '
                         <li style="margin-bottom: 10px;">Nombre: '.$nombre.'</li>
                         <li style="margin-bottom: 10px;">Correo electrónico: '.$email.'</li>
                         <li style="margin-bottom: 10px;">Teléfono: '.$telefono.'</li>
-                        <li style="margin-top: 40px;">Mensaje: '.$mensaje.'</li>
+                        <li>Mensaje: '.$mensaje.'</li>
                     </ul>
                     <a href="https://www.facebook.com/blueberrymx/"><img src="https://i.postimg.cc/2ypVNcFm/FB-icono.png" alt="Blueberry facebook" style="margin-left: 140px; margin-right: 40px; margin-top: 80px; margin-bottom: 20px;"/></a>
                     <a href="https://www.instagram.com/blueberrymx_/"><img src="https://i.postimg.cc/59HRPPRy/IG-icono.png" alt="Blueberry instagram" style="margin-right: 40px; margin-bottom: 20px;"/></a>
