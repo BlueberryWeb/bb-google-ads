@@ -314,7 +314,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 px-4 px-sm-5" id="contacto">
-                    <form method="post" action="mail.php" class="pt-5 form-contacto">
+                    <form method="post" action="mail.php" class="pt-5 form-contacto" id="form">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                             <input type="text" class="form-control borde-bottom" id="nombre" name="nombre" required>
@@ -395,6 +395,17 @@
             document.getElementById('mensaje-agradecimiento').style.display = 'block';
             document.getElementById('contacto').style.display = 'none';
         }
+        $('#form').submit(function (event) {
+            event.preventDefault();
+            /*Cambia 6LcbFlUgAAAAAFBHhpCJzpPXLhCeLN-79qSDpVFD por tu clave de sitio web*/
+            grecaptcha.ready(function () {
+                grecaptcha.execute('6LecZ1UgAAAAAOtu0s1WZDcmfnia1ryhZfNkBmBf', { action: 'registro' }).then(function (token) {
+                    $('#form').prepend('<input type="hidden" name="token" value="' + token + '">');
+                    $('#form').prepend('<input type="hidden" name="action" value="registro">');
+                    $('#form').unbind('submit').submit();
+                });
+            });
+        });
     </script>
 </body>
 </html>
