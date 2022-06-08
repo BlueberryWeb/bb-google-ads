@@ -10,6 +10,9 @@
     font-family: 'Prompt-Regular';
     src: url("fonts/Prompt-Regular.ttf");   
 }
+.grecaptcha-badge {
+    visibility: hidden;
+} 
 .icon-WAPS{
     max-width: 200px;
 }
